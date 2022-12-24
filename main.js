@@ -16,7 +16,7 @@ const scene = new THREE.Scene()
 
 //Phone
 
-gltfLoader.load('src/phone.glb', (gltf)=>{
+gltfLoader.load('phone.glb', (gltf)=>{
     gltf.scene.scale.set(0.5, 0.5, 0.5),
     gltf.scene.rotation.set(0, 3.3, 0),
     scene.add(gltf.scene)
