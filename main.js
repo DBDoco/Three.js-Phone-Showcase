@@ -21,6 +21,7 @@ gltfLoader.load('phone.glb', (gltf)=>{
     gltf.scene.rotation.set(0, 3.3, 0),
     scene.add(gltf.scene)
 
+    tl.fromTo('nav', {opacity: 0}, {opacity:1})
     tl.to(gltf.scene.rotation, {y:4.7, duration: 1})
     tl.to(gltf.scene.scale, {x:0.3, y:0.3, z:0.3, duration: 1}, "-=1")
     tl.to(gltf.scene.scale, {x:0.35,y:0.35,z:0.35, duration:1}, "-=1")
