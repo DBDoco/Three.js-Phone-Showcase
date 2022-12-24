@@ -9,14 +9,14 @@ const gltfLoader = new GLTFLoader()
 let tl = new gsap.timeline()
 
 // Canvas
-const canvas = document.querySelector('canvas.webgl')
+const canvas = document.querySelector('.webgl')
 
 // Scene
 const scene = new THREE.Scene()
 
 //Phone
 
-gltfLoader.load('/phone.glb', (gltf)=>{
+gltfLoader.load('src/phone.glb', (gltf)=>{
     gltf.scene.scale.set(0.5, 0.5, 0.5),
     gltf.scene.rotation.set(0, 3.3, 0),
     scene.add(gltf.scene)
