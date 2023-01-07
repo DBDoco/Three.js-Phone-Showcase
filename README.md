@@ -10,7 +10,13 @@
   <img src="https://media0.giphy.com/media/P1MKKlweLBBtlmarrp/giphy.gif?cid=790b76110f996ba10bbf380f9a17d3a9292272044a323bc6&rid=giphy.gif&ct=g" alt="phone" />
 </p>
 
-
+<div align="center">
+  <h3>
+    <a href="https://cozy-pudding-6e03ff.netlify.app">
+      Try Live
+    </a>
+</h3>
+</div>
 
 
 
@@ -35,9 +41,6 @@ Build the project
 ```bash
 $ npm run build
 ```
-
-## Try it live
-<a href="https://cozy-pudding-6e03ff.netlify.app">Here</a>.
 
 
 ## Troubleshooting
